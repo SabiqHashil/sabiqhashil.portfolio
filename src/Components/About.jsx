@@ -17,10 +17,16 @@ const About = () => {
         />
         <h1
           data-aos="fade-right"
-          className="text-[52px] font-semibold mb-8 leading-normal text-fuchsia-500 uppercase"
+          className="text-[52px] font-semibold mb-2 leading-normal text-fuchsia-500 uppercase"
         >
           About me
         </h1>
+        <h2
+          data-aos="fade-left"
+          className="text-[28px] font-medium mt-1 leading-normal uppercase"
+        >
+          Sabiq Hashil
+        </h2>
         <p data-aos="fade-left">
           I am a self-taught freelance software developer specializing in
           crafting exceptional digital experiences. With expertise spanning web

@@ -23,12 +23,7 @@ const Banner = () => {
           Freelance <br />{" "}
           <span className="text-fuchsia-500">Software Developer</span>
         </h1>
-        <h2
-          data-aos="fade-left"
-          className="text-[28px] font-medium leading-normal uppercase"
-        >
-          Sabiq Hashil
-        </h2>
+      
         <p data-aos="fade-left">
           I am working as a Freelance Software developer ready to turn your
           visionary concepts into tangible, high-performing digital solutions.
