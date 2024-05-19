@@ -20,7 +20,7 @@ const Banner = () => {
           data-aos="fade-right"
           className="text-[52px] font-semibold mb-4 leading-normal uppercase"
         >
-          Freelace <br />{" "}
+          Freelance <br />{" "}
           <span className="text-fuchsia-500">Software Developer</span>
         </h1>
         <h2
