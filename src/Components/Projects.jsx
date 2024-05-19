@@ -77,7 +77,7 @@ const Projects = () => {
             to efficient, intuitive solutions for unique business needs.
           </p>
         </a>
-        <a href="" target="_blank" className="cursor-pointer">
+        <a href="https://home-budget-web-app-react-js.vercel.app/" target="_blank" className="cursor-pointer">
           <img
             data-aos="fade-up"
             height={250}
@@ -105,7 +105,10 @@ const Projects = () => {
             their financial goals.
           </p>
         </a>
-        <a href="" target="_blank" className="cursor-pointer">
+        <a 
+          href="https://drive.google.com/drive/folders/1RLuWQvhtkYxTYT_5nQnFXPVs9wy9U3Ga?usp=sharing"
+          target="_blank" 
+          className="cursor-pointer">
           <img
             data-aos="fade-down"
             height={250}
