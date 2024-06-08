@@ -1,4 +1,4 @@
-import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import logo from "../assets/SH-logo.png";
 
 const Footer = () => {
@@ -9,9 +9,7 @@ const Footer = () => {
     >
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-4">
         <div className="mb-4 md:mb-0">
-          <span
-            className="cursor-pointer text-3xl font-semibold text-fuchsia-800 py-2 uppercase"
-          >
+          <span className="cursor-pointer text-3xl font-semibold text-fuchsia-800 py-2 uppercase">
             <img height={60} width={60} src={logo} alt="SH logo" />
           </span>
           <p className="text-[16px] my-4 ">
@@ -29,7 +27,7 @@ const Footer = () => {
             <li className="my-2">Web Designing</li>
             <li className="my-2">WebApp Developement</li>
             <li className="my-2">Mobile App Development</li>
-            <li className="my-2">CRM WebApplication</li>
+            <li className="my-2">CRM Development</li>
           </ul>
         </div>
         <div className="mb-4 md:mb-0">
@@ -69,15 +67,14 @@ const Footer = () => {
               <FaLinkedin size={30} />
             </a>
             <br />
-            {/* <a
-                        target="_blank"
-
+            <a
+              target="_blank"
               className="text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out "
-              href=""
+              href="https://x.com/SabiqHashil"
             >
               <FaTwitter size={30} />
             </a>
-            <br /> */}
+            <br />
             <a
               target="_blank"
               className="text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out "

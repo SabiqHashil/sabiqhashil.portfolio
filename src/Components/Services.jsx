@@ -18,7 +18,7 @@ const Services = () => {
       >
         Services
       </h1>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-around gap-20">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-around gap-20">
         <h2
           data-aos="fade-up"
           className="text-[26px] flex text-center items-center justify-center font-semibold text-fuchsia-800 rounded-ss-3xl rounded-br-3xl h-36 w-44 border border-fuchsia-800 b_glow"
@@ -26,16 +26,22 @@ const Services = () => {
           Website Designing
         </h2>
         <h2
-          data-aos="fade-down"
+          data-aos="fade-up"
           className="text-[26px] flex text-center items-center justify-center font-semibold text-fuchsia-800 rounded-ss-3xl rounded-br-3xl h-36 w-44 border border-fuchsia-800 b_glow"
         >
           WebApp Development
         </h2>
         <h2
-          data-aos="fade-up"
+          data-aos="fade-down"
           className="text-[26px] flex text-center items-center justify-center font-semibold text-fuchsia-800 rounded-ss-3xl rounded-br-3xl h-36 w-44 border border-fuchsia-800 b_glow"
         >
           MobileApp Development
+        </h2>
+        <h2
+          data-aos="fade-down"
+          className="text-[26px] flex text-center items-center justify-center font-semibold text-fuchsia-800 rounded-ss-3xl rounded-br-3xl h-36 w-44 border border-fuchsia-800 b_glow"
+        >
+          CRM Development
         </h2>
       </div>
     </div>

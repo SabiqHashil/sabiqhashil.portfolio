@@ -5,6 +5,7 @@ import img from "../assets/img.jpeg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { FiTwitter } from "react-icons/fi";
 
 const Banner = () => {
   useEffect(() => {
@@ -48,12 +49,12 @@ const Banner = () => {
               >
                 <FaLinkedin className="text-[28px]" />
               </a>
-              {/* <a target="_blank"
-                href=""
+              <a target="_blank"
+                href="https://x.com/SabiqHashil"
                 className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2"
               >
                 <FiTwitter className="text-[28px]" />
-              </a> */}
+              </a>
               <a
                 target="_blank"
                 href="https://www.instagram.com/sbq_developer"
