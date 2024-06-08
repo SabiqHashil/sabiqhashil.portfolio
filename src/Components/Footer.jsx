@@ -1,4 +1,10 @@
-import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaGithub,
+  FaInstagram,
+  FaLinkedin,
+  FaTwitter,
+} from "react-icons/fa";
 import logo from "../assets/SH-logo.png";
 
 const Footer = () => {
@@ -81,6 +87,14 @@ const Footer = () => {
               href="https://www.instagram.com/sbq_developer"
             >
               <FaInstagram size={30} />
+            </a>
+            <br />
+            <a
+              target="_blank"
+              className="text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out "
+              href="https://www.facebook.com/Sabiqhashilkp786/"
+            >
+              <FaFacebook size={30} />
             </a>
           </div>
         </div>

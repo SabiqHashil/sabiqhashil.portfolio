@@ -1,5 +1,5 @@
 import { AiFillGithub } from "react-icons/ai";
-import { FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 // import { FiTwitter } from "react-icons/fa";
 import img from "../assets/img.jpeg";
 import AOS from "aos";
@@ -24,7 +24,7 @@ const Banner = () => {
           Freelance <br />{" "}
           <span className="text-fuchsia-500">Software Developer</span>
         </h1>
-      
+
         <p data-aos="fade-left">
           I am working as a Freelance Software developer ready to turn your
           visionary concepts into tangible, high-performing digital solutions.
@@ -49,7 +49,8 @@ const Banner = () => {
               >
                 <FaLinkedin className="text-[28px]" />
               </a>
-              <a target="_blank"
+              <a
+                target="_blank"
                 href="https://x.com/SabiqHashil"
                 className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2"
               >
@@ -61,6 +62,13 @@ const Banner = () => {
                 className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2"
               >
                 <FaInstagram className="text-[28px]" />
+              </a>
+              <a
+                target="_blank"
+                href="https://www.facebook.com/Sabiqhashilkp786/"
+                className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2"
+              >
+                <FaFacebook className="text-[28px]" />
               </a>
             </div>
           </div>
