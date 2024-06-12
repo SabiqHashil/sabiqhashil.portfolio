@@ -30,10 +30,10 @@ const Footer = () => {
             Services
           </h2>
           <ul className="text-[16px] my-4 ">
+            <li className="my-2">CRM Development</li>
             <li className="my-2">Web Designing</li>
             <li className="my-2">Web Developement</li>
             <li className="my-2">Mobile App Development</li>
-            <li className="my-2">CRM Development</li>
           </ul>
         </div>
         <div className="mb-4 md:mb-0">
