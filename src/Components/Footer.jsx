@@ -31,7 +31,7 @@ const Footer = () => {
           </h2>
           <ul className="text-[16px] my-4 ">
             <li className="my-2">Web Designing</li>
-            <li className="my-2">WebApp Developement</li>
+            <li className="my-2">Web Developement</li>
             <li className="my-2">Mobile App Development</li>
             <li className="my-2">CRM Development</li>
           </ul>
