@@ -29,7 +29,7 @@ const Services = () => {
           data-aos="fade-up"
           className="text-[26px] flex text-center items-center justify-center font-semibold text-fuchsia-800 rounded-ss-3xl rounded-br-3xl h-36 w-44 border border-fuchsia-800 b_glow"
         >
-          WebApp Development
+          Web Development
         </h2>
         <h2
           data-aos="fade-down"
