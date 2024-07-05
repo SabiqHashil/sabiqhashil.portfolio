@@ -1,7 +1,7 @@
-import img1 from "../assets/projects/LeadUp Logo.png";
-import img2 from "../assets/projects/Orders & Delivery Logo.jpg";
-import img3 from "../assets/projects/Home Budget Logo.jpg";
-import img4 from "../assets/projects/SBQ Money Care Logo.jpg";
+import img1 from "../assets/projects/orders_and_delivery_logo.jpg";
+import img2 from "../assets/projects/leadup_logo.png";
+import img3 from "../assets/projects/home_budget_logo.jpg";
+import img4 from "../assets/projects/sbq_money_care_logo.jpg";
 import { useEffect } from "react";
 import Aos from "aos";
 
@@ -29,7 +29,7 @@ const Projects = () => {
             height={250}
             width={250}
             className="text-[26px] flex text-center items-center justify-center rounded-3xl p-1 border border-fuchsia-800 b_glow"
-            src={img2}
+            src={img1}
             alt="Orders & Delivery logo"
           />
           <h3
@@ -57,7 +57,7 @@ const Projects = () => {
             height={250}
             width={250}
             className="text-[26px] flex text-center items-center justify-center rounded-3xl p-1 border border-fuchsia-800 b_glow"
-            src={img1}
+            src={img2}
             alt="LeadUp logo"
           />
           <h3
