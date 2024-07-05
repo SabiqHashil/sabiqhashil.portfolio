@@ -30,7 +30,7 @@ const Projects = () => {
             width={250}
             className="text-[26px] flex text-center items-center justify-center rounded-3xl p-1 border border-fuchsia-800 b_glow"
             src={img2}
-            alt="JabiOrders logo"
+            alt="Orders & Delivery logo"
           />
           <h3
             data-aos="fade-down"
@@ -122,7 +122,7 @@ const Projects = () => {
             width={250}
             className="text-[26px] flex text-center items-center justify-center rounded-3xl p-1 border border-fuchsia-800 b_glow"
             src={img4}
-            alt="SBQMoneyCare logo"
+            alt="SBQ MoneyCare logo"
           />
           <h3
             data-aos="fade-up"
