@@ -1,7 +1,7 @@
-import img1 from "../assets/projects/LeadUp logo.png";
-import img2 from "../assets/projects/jabiorders.png";
-import img3 from "../assets/projects/homebudget_logo.jpg";
-import img4 from "../assets/projects/sbqmoneycare.jpg";
+import img1 from "../assets/projects/LeadUp Logo.png";
+import img2 from "../assets/projects/Orders & Delivery Logo.jpg";
+import img3 from "../assets/projects/Home Budget Logo.jpg";
+import img4 from "../assets/projects/SBQ Money Care Logo.jpg";
 import { useEffect } from "react";
 import Aos from "aos";
 
