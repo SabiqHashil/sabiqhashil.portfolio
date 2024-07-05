@@ -29,44 +29,17 @@ const Projects = () => {
             height={250}
             width={250}
             className="text-[26px] flex text-center items-center justify-center rounded-3xl p-1 border border-fuchsia-800 b_glow"
-            src={img1}
-            alt="LeadUp logo"
-          />
-          <h3
-            data-aos="fade-down"
-            className="text-[25px] mt-5 font-semibold mb-3 leading-normal uppercase text-fuchsia-500"
-          >
-            CRM Web Application
-          </h3>
-          <p
-            data-aos="fade-left"
-            className="text-[16px] font-normal leading-normal text-white"
-          >
-            The software meets the client's need for a streamlined loan approval
-            process, functioning as a user-friendly CRM system. It features a
-            dashboard for quick insights into loan statuses, staff, and branch
-            statistics. Integration of WhatsApp messaging allows direct, prompt
-            customer communication, boosting system efficiency and enhancing
-            customer experience.
-          </p>
-        </a>
-        <a href="" target="_blank" className="cursor-pointer">
-          <img
-            data-aos="fade-down"
-            height={250}
-            width={250}
-            className="text-[26px] flex text-center items-center justify-center rounded-3xl p-1 border border-fuchsia-800 b_glow"
             src={img2}
             alt="JabiOrders logo"
           />
           <h3
-            data-aos="fade-up"
+            data-aos="fade-down"
             className="text-[25px] mt-5 font-semibold mb-3 leading-normal uppercase text-fuchsia-500"
           >
             Mobile Application
           </h3>
           <p
-            data-aos="fade-right"
+            data-aos="fade-left"
             className="text-[16px] font-normal leading-normal text-white"
           >
             I led a team in developing a mobile app using Flutter for a fruit
@@ -77,7 +50,40 @@ const Projects = () => {
             to efficient, intuitive solutions for unique business needs.
           </p>
         </a>
-        <a href="https://home-budget-web-app-react-js.vercel.app/" target="_blank" className="cursor-pointer">
+
+        <a href="" target="_blank" className="cursor-pointer">
+          <img
+            data-aos="fade-down"
+            height={250}
+            width={250}
+            className="text-[26px] flex text-center items-center justify-center rounded-3xl p-1 border border-fuchsia-800 b_glow"
+            src={img1}
+            alt="LeadUp logo"
+          />
+          <h3
+            data-aos="fade-up"
+            className="text-[25px] mt-5 font-semibold mb-3 leading-normal uppercase text-fuchsia-500"
+          >
+            CRM Web Application
+          </h3>
+          <p
+            data-aos="fade-right"
+            className="text-[16px] font-normal leading-normal text-white"
+          >
+            The software meets the client's need for a streamlined loan approval
+            process, functioning as a user-friendly CRM system. It features a
+            dashboard for quick insights into loan statuses, staff, and branch
+            statistics. Integration of WhatsApp messaging allows direct, prompt
+            customer communication, boosting system efficiency and enhancing
+            customer experience.
+          </p>
+        </a>
+
+        <a
+          href="https://home-budget-web-app-react-js.vercel.app/"
+          target="_blank"
+          className="cursor-pointer"
+        >
           <img
             data-aos="fade-up"
             height={250}
@@ -105,10 +111,11 @@ const Projects = () => {
             their financial goals.
           </p>
         </a>
-        <a 
+        <a
           href="https://drive.google.com/drive/folders/1RLuWQvhtkYxTYT_5nQnFXPVs9wy9U3Ga?usp=sharing"
-          target="_blank" 
-          className="cursor-pointer">
+          target="_blank"
+          className="cursor-pointer"
+        >
           <img
             data-aos="fade-down"
             height={250}

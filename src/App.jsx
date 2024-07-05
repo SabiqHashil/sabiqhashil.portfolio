@@ -7,6 +7,7 @@ import Nav from "./Components/Nav";
 import Projects from "./Components/Projects";
 import Services from "./Components/Services";
 import { BallTriangle } from "react-loader-spinner";
+// import Contact from "./Components/Contact";
 
 const App = () => {
   const [loading, setLoading] = useState(false);
