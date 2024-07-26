@@ -1,24 +1,25 @@
 import { useEffect, useState } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import About from "./Components/About";
 import Banner from "./Components/Banner";
-// import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Nav from "./Components/Nav";
-import Projects from "./Components/Projects";
 import Services from "./Components/Services";
+import Projects from "./Components/ProjectsMain";
 import { BallTriangle } from "react-loader-spinner";
-// import Contact from "./Components/Contact";
+import ProjectDetails from "./Components/pages/ProjectDetails";
 
 const App = () => {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
+
   useEffect(() => {
-    setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 2000); // Simulating loading delay
   }, []);
+
   return (
-    <>
+    <Router>
       {loading ? (
         <div className="bg-slate-900 h-[100vh] flex justify-center items-center">
           <BallTriangle
@@ -36,14 +37,25 @@ const App = () => {
         <div className="bg-slate-900">
           <Nav />
           <Banner />
-          <About />
-          <Services />
-          <Projects />
-          {/* <Contact /> */}
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <>
+                  <About />
+                  <Services />
+                  <Projects />
+                </>
+              }
+            />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/projects/:id" element={<ProjectDetails />} />
+            {/* Add other routes as needed */}
+          </Routes>
           <Footer />
         </div>
       )}
-    </>
+    </Router>
   );
 };
 
