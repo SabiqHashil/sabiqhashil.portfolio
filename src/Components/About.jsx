@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import img from "../assets/img.jpg";
 
 const About = () => {
@@ -28,16 +29,16 @@ const About = () => {
           Sabiq Hashil
         </h2>
         <p data-aos="fade-left">
-          I am a self-taught freelance software developer specializing in
-          crafting exceptional digital experiences. With expertise spanning web
-          application and mobile app development, I deliver efficient,
-          cost-effective, and high-quality solutions. My focus on speed,
-          user-friendliness, and accessibility ensures optimal user experiences.
-          Clients appreciate the versatility I bring to projects, seamlessly
-          navigating both front-end and back-end development. Whether it's
-          creating successful web apps or diving into the world of mobile
-          development, I am committed to exceeding expectations and bringing
-          your digital vision to life.
+          I am a self-taught freelance software developer dedicated to
+          transforming your digital concepts into reality. My skills span web
+          and mobile app development, enabling me to provide efficient,
+          cost-effective, and high-quality solutions. With a focus on
+          performance, intuitive design, and accessibility, I ensure that every
+          project delivers an exceptional user experience. Clients value my
+          ability to seamlessly integrate front-end and back-end technologies.
+          Whether it's developing compelling web applications or engaging mobile
+          apps, I am committed to delivering results that exceed expectations
+          and bring your digital vision to life.
         </p>
         <div className="flex items-center justify-center">
           <div className="flex items-center justify-center">

@@ -26,11 +26,12 @@ const Banner = () => {
         </h1>
 
         <p data-aos="fade-left">
-          I am working as a Freelance Software developer ready to turn your
-          visionary concepts into tangible, high-performing digital solutions.
-          With a focus on both mobile and web development, I specialize in
-          creating dynamic and user-friendly experiences using Flutter for
-          mobile apps and the MERN stack for web applications.
+          As a Freelance Software Developer, I transform your innovative ideas
+          into powerful, high-quality digital solutions. My expertise spans both
+          mobile and web development, utilizing Flutter for mobile applications
+          and the MERN stack for web solutions. I am dedicated to delivering
+          intuitive and engaging user experiences, ensuring that your vision is
+          realized with precision and excellence.
         </p>
         <div className="flex items-center justify-center">
           <div className="flex items-center justify-center mt-3 lg:mt-5">
