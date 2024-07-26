@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-scroll";
 import { FaTimes } from "react-icons/fa";
 import { CiMenuFries } from "react-icons/ci";
-import logo from "../assets/SH-logo.png";
+import logo from "../assets/logo.png";
 
 const Nav = () => {
   const [click, setClick] = useState(false);
@@ -34,7 +34,7 @@ const Nav = () => {
       <div className="h-10vh flex justify-between items-center z-50 text-white lg:py-5 px-20 py-4 border-b border-slate-800">
         <div className="flex items-center flex-1">
           <span className="cursor-pointer text-3xl font-bold">
-            <img className="responsive-img" src={logo} alt="SH logo" />
+            <img className="responsive-img" height={60} width={60} src={logo} alt="SH logo" />
           </span>
         </div>
         <div className="lg:flex md:flex lg:flex-1 items-center justify-end font-normal hidden">

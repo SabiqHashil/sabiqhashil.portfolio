@@ -6,7 +6,7 @@ import {
   FaLinkedin,
   FaTwitter,
 } from "react-icons/fa";
-import logo from "../assets/SH-logo.png";
+import logo from "../assets/logo.png";
 
 const Footer = () => {
   return (
@@ -17,7 +17,7 @@ const Footer = () => {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-4">
         <div className="mb-4 md:mb-0">
           <span className="cursor-pointer text-3xl font-semibold text-fuchsia-800 py-2 uppercase">
-            <img height={60} width={60} src={logo} alt="SH logo" />
+            <img height={80} width={80} src={logo} alt="SH logo" />
           </span>
           <p className="text-[16px] my-5 font-normal leading-normal text-white">
             I embark on web and mobile app development, turning ideas into
@@ -30,7 +30,7 @@ const Footer = () => {
           <h2 className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase">
             Services
           </h2>
-          <ul className="text-[16px] lg:my-7 ">
+          <ul className="text-[16px] ">
             <li className="my-2">CRM Development</li>
             <li className="my-2">Web Designing</li>
             <li className="my-2">Web Developement</li>
@@ -41,7 +41,7 @@ const Footer = () => {
           <h2 className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase">
             Contact
           </h2>
-          <div className="lg:my-7">
+          <div className="">
             <a href="mailto: sabiqhashilkp786@gmail.com" target="_blank">
               <p className="text-[16px] my-2">
                 <span className="text-fuchsia-500">Email: </span>
@@ -59,7 +59,7 @@ const Footer = () => {
           <h2 className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase">
             Follow Me
           </h2>
-          <div className="lg:flex-space-x-4 lg:grid lg:gap-0 flex gap-3 lg:my-7">
+          <div className="lg:flex-space-x-4 lg:grid lg:gap-0 flex gap-3 my-2">
             <a
               target="_blank"
               className="text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out "
