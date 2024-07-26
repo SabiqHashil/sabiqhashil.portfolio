@@ -1,11 +1,10 @@
 import { AiFillGithub } from "react-icons/ai";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
-// import { FiTwitter } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
 import img from "../assets/img.jpeg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import { FiTwitter } from "react-icons/fi";
 
 const Banner = () => {
   useEffect(() => {
@@ -25,7 +24,10 @@ const Banner = () => {
           <span className="text-fuchsia-500">Software Developer</span>
         </h1>
 
-        <p data-aos="fade-left">
+        <p
+          data-aos="fade-left"
+          className="text-[16px] text-justify font-normal leading-normal text-white"
+        >
           As a Freelance Software Developer, I transform your innovative ideas
           into powerful, high-quality digital solutions. My expertise spans both
           mobile and web development, utilizing Flutter for mobile applications
@@ -55,7 +57,7 @@ const Banner = () => {
                 href="https://x.com/SabiqHashil"
                 className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2"
               >
-                <FiTwitter className="text-[28px]" />
+                <FaTwitter className="text-[28px]" />
               </a>
               <a
                 target="_blank"

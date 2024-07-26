@@ -10,7 +10,7 @@ const Services = () => {
   return (
     <div
       id="Services"
-      className="p-20 flex flex-col items-center justify-center"
+      className="p-20 lg:mb-20 flex flex-col items-center justify-center"
     >
       <h1
         data-aos="fade-right"

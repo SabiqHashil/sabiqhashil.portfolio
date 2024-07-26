@@ -28,7 +28,10 @@ const About = () => {
         >
           Sabiq Hashil
         </h2>
-        <p data-aos="fade-left">
+        <p
+          data-aos="fade-left"
+          className="text-[16px] text-justify font-normal leading-normal text-white"
+        >
           I am a self-taught freelance software developer dedicated to
           transforming your digital concepts into reality. My skills span web
           and mobile app development, enabling me to provide efficient,

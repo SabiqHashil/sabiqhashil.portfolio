@@ -19,7 +19,7 @@ const Footer = () => {
           <span className="cursor-pointer text-3xl font-semibold text-fuchsia-800 py-2 uppercase">
             <img height={60} width={60} src={logo} alt="SH logo" />
           </span>
-          <p className="text-[16px] my-4 ">
+          <p className="text-[16px] my-5 font-normal leading-normal text-white">
             I embark on web and mobile app development, turning ideas into
             tangible digital solutions. Committed to excellence and client
             satisfaction, I create user-friendly experiences that stand out in
@@ -30,7 +30,7 @@ const Footer = () => {
           <h2 className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase">
             Services
           </h2>
-          <ul className="text-[16px] my-4 ">
+          <ul className="text-[16px] lg:my-7 ">
             <li className="my-2">CRM Development</li>
             <li className="my-2">Web Designing</li>
             <li className="my-2">Web Developement</li>
@@ -41,23 +41,25 @@ const Footer = () => {
           <h2 className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase">
             Contact
           </h2>
-          <a href="mailto: sabiqhashilkp786@gmail.com" target="_blank">
-            <p className="text-[16px] my-4">
-              <span className="text-fuchsia-500">Email: </span>
-              sabiqhashilkp786@gmail.com
-            </p>
-          </a>
-          <a href="tel: +917559873623" target="_blank">
-            <p className="text-[16px] my-4">
-              <span className="text-fuchsia-500">Phone:</span> +91 75598 73623
-            </p>
-          </a>
+          <div className="lg:my-7">
+            <a href="mailto: sabiqhashilkp786@gmail.com" target="_blank">
+              <p className="text-[16px] my-2">
+                <span className="text-fuchsia-500">Email: </span>
+                sabiqhashilkp786@gmail.com
+              </p>
+            </a>
+            <a href="tel: +917559873623" target="_blank">
+              <p className="text-[16px] my-4">
+                <span className="text-fuchsia-500">Phone:</span> +91 75598 73623
+              </p>
+            </a>
+          </div>
         </div>
         <div>
           <h2 className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase">
             Follow Me
           </h2>
-          <div className="lg:flex-space-x-4 lg:grid lg:gap-0 flex gap-3">
+          <div className="lg:flex-space-x-4 lg:grid lg:gap-0 flex gap-3 lg:my-7">
             <a
               target="_blank"
               className="text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out "
