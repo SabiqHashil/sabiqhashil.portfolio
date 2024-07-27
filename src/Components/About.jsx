@@ -10,8 +10,8 @@ const About = () => {
         <img
           data-aos="fade-down"
           src="/images/img.jpg"
-          width={290}
-          height={290}
+          width={200}
+          height={200}
           className="rounded border-2 p-1 border-fuchsia-500 img_glow"
           alt="Profile picture of Sabiq Hashil"
         />
