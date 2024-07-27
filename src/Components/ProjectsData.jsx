@@ -1,5 +1,12 @@
 export const ProjectsData = [
   {
+    id: "fas-pnr",
+    title: "Mobile App",
+    description: "",
+    image: "/projects/fas_pnr_logo.jpg", // Use the relative path here
+    link: "#",
+  },
+  {
     id: "orders-and-delivery",
     title: "Mobile App",
     description:
