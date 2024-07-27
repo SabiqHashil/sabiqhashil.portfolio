@@ -6,7 +6,6 @@ import {
   FaLinkedin,
   FaTwitter,
 } from "react-icons/fa";
-import logo from "../assets/logo.png";
 
 const Footer = () => {
   return (
@@ -17,7 +16,7 @@ const Footer = () => {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-4">
         <div className="mb-4 md:mb-0">
           <span className="cursor-pointer text-3xl font-semibold text-fuchsia-800 py-2 uppercase">
-            <img height={80} width={80} src={logo} alt="SH logo" />
+            <img height={80} width={80} src="/images/logo.png" alt="SH logo" />
           </span>
           <p className="text-[16px] my-5 font-normal leading-normal text-white">
             I embark on web and mobile app development, turning ideas into

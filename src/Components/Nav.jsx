@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Link } from "react-scroll";
 import { FaTimes } from "react-icons/fa";
 import { CiMenuFries } from "react-icons/ci";
-import logo from "../assets/logo.png";
 
 const Nav = () => {
   const [click, setClick] = useState(false);
@@ -38,7 +37,7 @@ const Nav = () => {
               className="responsive-img"
               height={60}
               width={60}
-              src={logo}
+              src="/images/logo.png"
               alt="SH logo"
             />
           </span>

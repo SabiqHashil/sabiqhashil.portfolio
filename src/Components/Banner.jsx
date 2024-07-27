@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { AiFillGithub } from "react-icons/ai";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
-import img from "../assets/img.jpeg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -84,7 +83,7 @@ const Banner = () => {
 
       <img
         data-aos="fade-up"
-        src={img}
+        src="/images/img.jpeg"
         width={290}
         height={290}
         className="rounded-full border-2 p-1 border-fuchsia-500 img_glow"

@@ -48,34 +48,6 @@ body {
 
 /* Ensure images are responsive */
 .responsive-img {
-<<<<<<< HEAD
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* Additional utility classes */
-.w-full {
-  width: 100%;
-}
-
-.h-full {
-  height: 100%;
-}
-
-/* Tailwind utility overrides if necessary */
-.p-4 {
-  padding: 1rem;
-}
-
-.m-auto {
-  margin: auto;
-}
-
-.text-center {
-  text-align: center;
-=======
   width: 40px;
   height: 40px;
->>>>>>> 354b2c4483c6765947fa36ad6674569c4d237a68
 }

@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import img from "../assets/img.jpg";
 
 const About = () => {
   return (
@@ -10,7 +9,7 @@ const About = () => {
       <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white">
         <img
           data-aos="fade-down"
-          src={img}
+          src="/images/img.jpg"
           width={290}
           height={290}
           className="rounded border-2 p-1 border-fuchsia-500 img_glow"
