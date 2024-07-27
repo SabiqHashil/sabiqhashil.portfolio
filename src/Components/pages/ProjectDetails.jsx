@@ -18,7 +18,7 @@ const ProjectDetails = () => {
       <h3 className="text-[30px] font-semibold mb-5 text-center leading-normal uppercase text-fuchsia-500">
         {project.title}
       </h3>
-      <p className="text-[16px] text-justify font-normal leading-normal text-white">
+      <p className="text-[16px]  font-normal leading-normal text-white">
         {project.description}
       </p>
       <div className="flex flex-row">

@@ -2,28 +2,75 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Prevent horizontal overflow */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Common box-sizing setting */
+* {
+  box-sizing: border-box;
+}
+
+/* Responsive container and elements */
+.container,
+.navbar,
+.content,
+.footer {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px; /* Adjust padding as needed */
+}
+
+/* Glow effects */
 .glow {
   transition: all 0.3s ease-in-out;
 }
-
 .glow:hover {
-  box-shadow: 0 0 25px rgba(206, 71, 193);
+  box-shadow: 0 0 25px rgba(206, 71, 193, 0.5);
 }
 .img_glow {
-  box-shadow: 0 0 55px rgba(206, 71, 193);
+  box-shadow: 0 0 55px rgba(206, 71, 193, 0.5);
 }
-
 .neno-button {
   transition: all 0.3s ease-in-out;
 }
 .neno-button:hover {
-  box-shadow: 0 0 15px rgb(206, 71, 193);
+  box-shadow: 0 0 15px rgba(206, 71, 193, 0.5);
 }
 .b_glow {
-  box-shadow: 0 0 15px rgb(206, 71, 193);
+  box-shadow: 0 0 15px rgba(206, 71, 193, 0.5);
 }
 
+/* Ensure images are responsive */
 .responsive-img {
-  width: 60px;
-  height: 60px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Additional utility classes */
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+/* Tailwind utility overrides if necessary */
+.p-4 {
+  padding: 1rem;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
 }

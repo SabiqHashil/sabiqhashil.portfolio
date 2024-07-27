@@ -14,13 +14,13 @@ const About = () => {
           width={290}
           height={290}
           className="rounded border-2 p-1 border-fuchsia-500 img_glow"
-          alt="Profile Picture"
+          alt="Profile picture of Sabiq Hashil"
         />
         <h1
           data-aos="fade-right"
           className="text-[52px] font-semibold mb-2 leading-normal text-fuchsia-500 uppercase"
         >
-          About me
+          About Me
         </h1>
         <h2
           data-aos="fade-left"
@@ -44,15 +44,16 @@ const About = () => {
           and bring your digital vision to life.
         </p>
         <div className="flex items-center justify-center">
-          <div className="flex items-center justify-center">
-            <div className="flex space-x-2">
-              <a href="#" download="Resume.pdf" target="_blank">
-                <button className="neno-button shadow-xl lg:mt-5 mt-3 hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-4 px-4 uppercase relative overflow-hidden">
-                  Resume
-                </button>
-              </a>
-            </div>
-          </div>
+          <a
+            href="/path/to/SABIQ HASHIL - RESUME.pdf"
+            download="SABIQ HASHIL - RESUME.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="neno-button shadow-xl lg:mt-5 mt-3 hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-4 px-4 uppercase relative overflow-hidden">
+              Resume
+            </button>
+          </a>
         </div>
       </div>
     </div>

@@ -7,10 +7,10 @@ import logo from "../assets/logo.png";
 const Nav = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
-  const closeMenu = () => setClick(false); // Function to close the menu
+  const closeMenu = () => setClick(false);
 
   const mobileMenu = (
-    <div className="lg:hidden block absolute top-16 w-full left-0 bg-slate-900 transition ease-in-out duration-300">
+    <div className="lg:hidden block absolute top-16 w-full left-0 bg-slate-900 transition ease-in-out duration-300 z-10">
       <ul className="text-center text-xl p-10">
         {["Home", "About", "Services", "Projects", "Contact"].map((item) => (
           <Link
@@ -18,7 +18,7 @@ const Nav = () => {
             spy={true}
             smooth={true}
             to={item}
-            onClick={closeMenu} // Close menu on item click
+            onClick={closeMenu}
           >
             <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded cursor-pointer">
               {item}
@@ -34,7 +34,13 @@ const Nav = () => {
       <div className="h-10vh flex justify-between items-center z-50 text-white lg:py-5 px-20 py-4 border-b border-slate-800">
         <div className="flex items-center flex-1">
           <span className="cursor-pointer text-3xl font-bold">
-            <img className="responsive-img" height={60} width={60} src={logo} alt="SH logo" />
+            <img
+              className="responsive-img"
+              height={60}
+              width={60}
+              src={logo}
+              alt="SH logo"
+            />
           </span>
         </div>
         <div className="lg:flex md:flex lg:flex-1 items-center justify-end font-normal hidden">
@@ -50,7 +56,11 @@ const Nav = () => {
             )}
           </ul>
         </div>
-        <button className="block sm:hidden transition" onClick={handleClick}>
+        <button
+          className="block sm:hidden transition focus:outline-none"
+          onClick={handleClick}
+          aria-label="Toggle menu"
+        >
           {click ? <FaTimes size={30} /> : <CiMenuFries size={30} />}
         </button>
         {click && mobileMenu}

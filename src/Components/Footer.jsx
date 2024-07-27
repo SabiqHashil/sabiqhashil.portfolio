@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <footer
       id="Contact"
-      className="bg-slate-800 text-white lg:px-48 px-4 py-16 "
+      className="bg-slate-800 text-white lg:px-48 px-4 py-16"
     >
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-4">
         <div className="mb-4 md:mb-0">
@@ -30,10 +30,10 @@ const Footer = () => {
           <h2 className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase">
             Services
           </h2>
-          <ul className="text-[16px] ">
+          <ul className="text-[16px]">
             <li className="my-2">CRM Development</li>
             <li className="my-2">Web Designing</li>
-            <li className="my-2">Web Developement</li>
+            <li className="my-2">Web Development</li>
             <li className="my-2">Mobile App Development</li>
           </ul>
         </div>
@@ -41,14 +41,22 @@ const Footer = () => {
           <h2 className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase">
             Contact
           </h2>
-          <div className="">
-            <a href="mailto: sabiqhashilkp786@gmail.com" target="_blank">
+          <div>
+            <a
+              href="mailto:sabiqhashilkp786@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <p className="text-[16px] my-2">
                 <span className="text-fuchsia-500">Email: </span>
                 sabiqhashilkp786@gmail.com
               </p>
             </a>
-            <a href="tel: +917559873623" target="_blank">
+            <a
+              href="tel:+917559873623"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <p className="text-[16px] my-4">
                 <span className="text-fuchsia-500">Phone:</span> +91 75598 73623
               </p>
@@ -59,42 +67,43 @@ const Footer = () => {
           <h2 className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase">
             Follow Me
           </h2>
-          <div className="lg:flex-space-x-4 lg:grid lg:gap-0 flex gap-3 my-2">
+          <div className="flex gap-3 my-2">
             <a
               target="_blank"
-              className="text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out "
+              rel="noopener noreferrer"
+              className="text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out"
               href="https://github.com/SabiqHashil"
             >
               <FaGithub size={30} />
             </a>
-            <br />
             <a
               target="_blank"
-              className="text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out "
+              rel="noopener noreferrer"
+              className="text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out"
               href="https://www.linkedin.com/in/sabiqhashilkp"
             >
               <FaLinkedin size={30} />
             </a>
-            <br />
             <a
               target="_blank"
-              className="text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out "
+              rel="noopener noreferrer"
+              className="text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out"
               href="https://x.com/SabiqHashil"
             >
               <FaTwitter size={30} />
             </a>
-            <br />
             <a
               target="_blank"
-              className="text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out "
+              rel="noopener noreferrer"
+              className="text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out"
               href="https://www.instagram.com/sbq_developer"
             >
               <FaInstagram size={30} />
             </a>
-            <br />
             <a
               target="_blank"
-              className="text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out "
+              rel="noopener noreferrer"
+              className="text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out"
               href="https://www.facebook.com/Sabiqhashilkp786/"
             >
               <FaFacebook size={30} />

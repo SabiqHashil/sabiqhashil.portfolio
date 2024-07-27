@@ -7,6 +7,7 @@ const Services = () => {
       duration: 1000,
     });
   }, []);
+
   return (
     <div
       id="Services"
@@ -19,8 +20,8 @@ const Services = () => {
         Services
       </h1>
       <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-around gap-20">
-         <h2
-          data-aos="fade-down"
+        <h2
+          data-aos="fade-up"
           className="text-[26px] flex text-center items-center justify-center font-semibold text-fuchsia-800 rounded-ss-3xl rounded-br-3xl h-36 w-44 border border-fuchsia-800 b_glow"
         >
           CRM Development
@@ -38,7 +39,7 @@ const Services = () => {
           Web Development
         </h2>
         <h2
-          data-aos="fade-down"
+          data-aos="fade-up"
           className="text-[26px] flex text-center items-center justify-center font-semibold text-fuchsia-800 rounded-ss-3xl rounded-br-3xl h-36 w-44 border border-fuchsia-800 b_glow"
         >
           Mobile App Development
