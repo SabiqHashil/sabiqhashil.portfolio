@@ -92,7 +92,7 @@ const Banner = () => {
         src="/images/img.jpeg"
         width={290}
         height={290}
-        className="rounded-full border-2 p-1 my-8 border-fuchsia-500 img_glow"
+        className="rounded-full border-2 p-1 my-16 border-fuchsia-500 img_glow"
         alt="Profile"
       />
     </div>
