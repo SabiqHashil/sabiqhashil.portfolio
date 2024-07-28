@@ -16,7 +16,7 @@ const About = () => {
           alt="Profile picture of Sabiq Hashil"
         />
         <h1
-          data-aos="slide-right"
+          data-aos="slide-left"
           className="text-[52px] font-semibold mb-2 leading-normal text-fuchsia-500 uppercase"
         >
           About Me

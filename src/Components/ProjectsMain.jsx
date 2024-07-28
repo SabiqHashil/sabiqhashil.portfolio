@@ -14,7 +14,7 @@ const Projects = () => {
       className="p-20 lg:mb-20 flex flex-col items-center justify-center"
     >
       <h1
-        data-aos="slide-right"
+        data-aos="slide-left"
         className="text-[52px] font-semibold mb-20 leading-normal uppercase text-fuchsia-500"
       >
         Projects
