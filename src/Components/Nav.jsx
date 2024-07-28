@@ -8,61 +8,66 @@ const Nav = () => {
   const handleClick = () => setClick(!click);
   const closeMenu = () => setClick(false);
 
-  const mobileMenu = (
-    <div className="lg:hidden block absolute top-16 w-full left-0 bg-slate-900 transition ease-in-out duration-300 z-10">
-      <ul className="text-center text-xl p-10">
-        {["Home", "About", "Services", "Projects", "Contact"].map((item) => (
-          <Link
-            key={item}
-            spy={true}
-            smooth={true}
-            to={item}
-            onClick={closeMenu}
-          >
-            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded cursor-pointer">
-              {item}
-            </li>
-          </Link>
-        ))}
-      </ul>
-    </div>
-  );
+  const menuItems = ["Home", "About", "Services", "Projects", "Contact"];
 
   return (
-    <nav>
-      <div className="h-10vh flex justify-between items-center z-50 text-white lg:py-5 px-20 py-4 border-b border-slate-800">
-        <div className="flex items-center flex-1">
-          <span className="cursor-pointer text-3xl font-bold">
+    <nav className="fixed w-full z-50 bg-slate-900 text-white">
+      <div className="container mx-auto flex justify-between items-center py-4 px-4 lg:px-20">
+        <div className="flex items-center">
+          <span className="text-3xl my-2 font-bold cursor-pointer">
             <img
-              className="responsive-img"
-              height={60}
-              width={60}
+              className="h-12 w-12 object-contain"
               src="/images/logo.png"
               alt="SH logo"
             />
           </span>
         </div>
-        <div className="lg:flex md:flex lg:flex-1 items-center justify-end font-normal hidden">
-          <ul className="flex gap-8 mr-16 text-[18px]">
-            {["Home", "About", "Services", "Projects", "Contact"].map(
-              (item) => (
-                <Link key={item} spy={true} smooth={true} to={item}>
-                  <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">
-                    {item}
-                  </li>
-                </Link>
-              )
-            )}
-          </ul>
-        </div>
+
+        {/* Desktop Menu */}
+        <ul className="hidden lg:flex items-center gap-8 text-[18px]">
+          {menuItems.map((item) => (
+            <Link
+              key={item}
+              spy={true}
+              smooth={true}
+              to={item}
+              offset={-70}
+              className="hover:text-fuchsia-600 transition border-b-2 border-transparent hover:border-fuchsia-600 cursor-pointer"
+            >
+              {item}
+            </Link>
+          ))}
+        </ul>
+
+        {/* Mobile Menu Button */}
         <button
-          className="block sm:hidden transition focus:outline-none"
+          className="block lg:hidden transition focus:outline-none"
           onClick={handleClick}
           aria-label="Toggle menu"
         >
           {click ? <FaTimes size={30} /> : <CiMenuFries size={30} />}
         </button>
-        {click && mobileMenu}
+
+        {/* Mobile Menu */}
+        {click && (
+          <div className="lg:hidden absolute top-0 left-0 w-full h-screen bg-slate-900 flex flex-col items-center justify-center z-10 transition ease-in-out duration-300">
+            <ul className="text-center text-xl space-y-10">
+              {menuItems.map((item) => (
+                <Link
+                  key={item}
+                  spy={true}
+                  smooth={true}
+                  to={item}
+                  offset={-70}
+                  className="block py-2 cursor-pointer hover:text-fuchsia-600"
+                  onClick={closeMenu}
+                >
+                  {item}
+                </Link>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
     </nav>
   );

@@ -12,13 +12,16 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="lg:px-56 px-10 lg:py-0 py-8 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
+    <div
+      id="Home"
+      className="lg:px-56 px-10 lg:py-0 py-8 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center"
+    >
       <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white">
         <h1
           data-aos="slide-right"
           className="text-[52px] font-semibold mb-4 leading-normal uppercase"
         >
-          Software <br />{" "}
+          Software
           <span className="text-fuchsia-500"> Developer</span>
         </h1>
 
@@ -26,8 +29,8 @@ const Banner = () => {
           data-aos="slide-up"
           className="text-[16px] text-justify font-normal leading-normal text-white"
         >
-          As a Software Developer, I transform your innovative ideas
-          into powerful, high-quality digital solutions. My expertise spans both
+          As a Software Developer, I transform your innovative ideas into
+          powerful, high-quality digital solutions. My expertise spans both
           mobile and web development, utilizing Flutter for mobile applications
           and the MERN stack for web solutions. I am dedicated to delivering
           intuitive and engaging user experiences, ensuring that your vision is
@@ -89,7 +92,7 @@ const Banner = () => {
         src="/images/img.jpeg"
         width={290}
         height={290}
-        className="rounded-full border-2 p-1 border-fuchsia-500 img_glow"
+        className="rounded-full border-2 p-1 my-8 border-fuchsia-500 img_glow"
         alt="Profile"
       />
     </div>
