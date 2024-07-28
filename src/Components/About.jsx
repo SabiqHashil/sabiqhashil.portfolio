@@ -8,7 +8,7 @@ const About = () => {
     >
       <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white">
         <img
-          data-aos="fade-down"
+          data-aos="zoom-in"
           src="/images/img.jpg"
           width={200}
           height={200}
@@ -16,19 +16,19 @@ const About = () => {
           alt="Profile picture of Sabiq Hashil"
         />
         <h1
-          data-aos="fade-right"
+          data-aos="slide-right"
           className="text-[52px] font-semibold mb-2 leading-normal text-fuchsia-500 uppercase"
         >
           About Me
         </h1>
         <h2
-          data-aos="fade-left"
+          data-aos="slide-down"
           className="text-[28px] font-medium mt-1 leading-normal uppercase"
         >
           Sabiq Hashil
         </h2>
         <p
-          data-aos="fade-left"
+          data-aos="slide-up"
           className="text-[16px] text-justify font-normal leading-normal text-white"
         >
           I am a self-taught freelance software developer dedicated to
@@ -42,7 +42,7 @@ const About = () => {
           apps, I am committed to delivering results that exceed expectations
           and bring your digital vision to life.
         </p>
-        <div className="flex items-center justify-center">
+        <div  data-aos="fade" className="flex items-center justify-center">
           <a
             href="/path/to/SABIQ HASHIL - RESUME.pdf"
             download="SABIQ HASHIL - RESUME.pdf"

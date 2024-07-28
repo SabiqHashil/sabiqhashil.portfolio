@@ -14,7 +14,7 @@ const Projects = () => {
       className="p-20 lg:mb-20 flex flex-col items-center justify-center"
     >
       <h1
-        data-aos="fade-left"
+        data-aos="slide-right"
         className="text-[52px] font-semibold mb-20 leading-normal uppercase text-fuchsia-500"
       >
         Projects
@@ -22,7 +22,7 @@ const Projects = () => {
       <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-around gap-10">
         {ProjectsData.map((project) => (
           <div
-            data-aos="fade-up"
+            data-aos={project.aos}
             key={project.id}
             className="card cursor-pointer"
           >

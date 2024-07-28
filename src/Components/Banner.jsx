@@ -15,7 +15,7 @@ const Banner = () => {
     <div className="lg:px-56 px-10 lg:py-0 py-8 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
       <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white">
         <h1
-          data-aos="fade-right"
+          data-aos="slide-right"
           className="text-[52px] font-semibold mb-4 leading-normal uppercase"
         >
           Freelance <br />{" "}
@@ -23,7 +23,7 @@ const Banner = () => {
         </h1>
 
         <p
-          data-aos="fade-left"
+          data-aos="slide-up"
           className="text-[16px] text-justify font-normal leading-normal text-white"
         >
           As a Freelance Software Developer, I transform your innovative ideas
@@ -34,7 +34,10 @@ const Banner = () => {
           realized with precision and excellence.
         </p>
         <div className="flex items-center justify-center">
-          <div className="flex items-center justify-center mt-3 lg:mt-5">
+          <div
+            data-aos="fade-zoom-in"
+            className="flex items-center justify-center mt-3 lg:mt-5"
+          >
             <div className="flex space-x-2">
               <a
                 target="_blank"
@@ -82,7 +85,7 @@ const Banner = () => {
       </div>
 
       <img
-        data-aos="fade-up"
+        data-aos="zoom-out"
         src="/images/img.jpeg"
         width={290}
         height={290}
