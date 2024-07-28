@@ -31,7 +31,7 @@ const About = () => {
           data-aos="slide-up"
           className="text-[16px] text-justify font-normal leading-normal text-white"
         >
-          I am a self-taught freelance software developer dedicated to
+          I am a self-taught software developer dedicated to
           transforming your digital concepts into reality. My skills span web
           and mobile app development, enabling me to provide efficient,
           cost-effective, and high-quality solutions. With a focus on
