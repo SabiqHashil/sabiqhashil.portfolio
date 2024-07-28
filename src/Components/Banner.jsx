@@ -18,15 +18,15 @@ const Banner = () => {
           data-aos="slide-right"
           className="text-[52px] font-semibold mb-4 leading-normal uppercase"
         >
-          Freelance <br />{" "}
-          <span className="text-fuchsia-500">Software Developer</span>
+          Software <br />{" "}
+          <span className="text-fuchsia-500"> Developer</span>
         </h1>
 
         <p
           data-aos="slide-up"
           className="text-[16px] text-justify font-normal leading-normal text-white"
         >
-          As a Freelance Software Developer, I transform your innovative ideas
+          As a Software Developer, I transform your innovative ideas
           into powerful, high-quality digital solutions. My expertise spans both
           mobile and web development, utilizing Flutter for mobile applications
           and the MERN stack for web solutions. I am dedicated to delivering
