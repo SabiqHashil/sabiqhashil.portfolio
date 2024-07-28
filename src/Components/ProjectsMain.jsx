@@ -21,33 +21,18 @@ const Projects = () => {
       </h1>
       <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-around gap-10">
         {ProjectsData.map((project) => (
-          <Link
-            key={project.id}
-            to={`/projects/${project.id}`}
-            className="cursor-pointer"
-          >
-            <img
-              data-aos="fade-up"
-              height={250}
-              width={250}
-              className="text-[26px] flex text-center items-center justify-center rounded-3xl p-1 border border-fuchsia-800 b_glow"
-              src={project.image} // Ensure this path is correct
-              alt={project.title}
-            />
-            <h3
-              data-aos="fade-down"
-              className="text-[25px] mt-5 font-semibold mb-3 leading-normal uppercase text-fuchsia-500"
-            >
-              {project.title}
-            </h3>
-            <p
-              data-aos="fade-left"
-              className="text-[16px] font-normal leading-normal text-white"
-            >
-              {project.description.substring(0, 100)}...{" "}
-              <a className="text-blue-500 cursor-pointer">Read More</a>
-            </p>
-          </Link>
+          <div key={project.id} className="card cursor-pointer">
+            <Link to={`/projects/${project.id}`}>
+              <img src={project.image} alt="project logo" />
+              <div className="card__content">
+                <p className="card__title">{project.title}</p>
+                <p className="card__description">
+                  {project.description.substring(0, 100)}...{" "}
+                  <a className="text-blue-400">Read More</a>
+                </p>
+              </div>
+            </Link>
+          </div>
         ))}
       </div>
     </div>
