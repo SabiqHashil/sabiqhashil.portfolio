@@ -14,7 +14,7 @@ const Nav = () => {
     <nav className="fixed w-full z-50 bg-slate-900 text-white">
       <div className="container mx-auto flex justify-between items-center py-4 px-4 lg:px-20">
         <div className="flex items-center">
-          <span className="text-3xl my-2 font-bold cursor-pointer">
+          <span className="text-3xl font-bold cursor-pointer">
             <img
               className="h-12 w-12 object-contain"
               src="/images/logo.png"
