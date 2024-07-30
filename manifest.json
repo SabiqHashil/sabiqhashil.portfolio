@@ -1,0 +1,20 @@
+{
+    "name": "Sabiq Hashil",
+    "short_name": "SBQ",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#317EFB",
+    "icons": [
+        {
+            "src": "./src/assets/SH-logo.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./src/assets/SH-logo-large.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
