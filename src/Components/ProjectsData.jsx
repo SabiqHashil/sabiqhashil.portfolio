@@ -12,7 +12,7 @@ export const ProjectsData = [
     description:
       "FAS mobile app, developed in Flutter, is designed specifically for a client’s fisheries business, focusing on the efficient management of fish boxes and driver coordination within fisheries markets. This app offers real-time visibility into key metrics such as the number of drivers, markets, and boxes, while accurately tracking box histories and movements. It empowers admins with full control to manage market details, driver information, and box logistics. The app's streamlined data updates enhance operational efficiency and provide a clear view of the fisheries supply chain, while its capability to generate and share comprehensive PDF reports, complete with calculations and images, supports effective communication with stakeholders, ensuring a well-organized and transparent fisheries market management system.",
     image: FasPnr,
-    link: "#",
+    link: "https://drive.google.com/drive/folders/1tQ2zsX9HME5IL28hgOa5NN0VBYChJCAL?usp=drive_link",
     aos: "slide-up",
   },
   {
