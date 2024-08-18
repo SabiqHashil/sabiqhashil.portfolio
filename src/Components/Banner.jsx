@@ -58,14 +58,14 @@ const Banner = () => {
               >
                 <FaLinkedin className="text-[28px]" />
               </a>
-              <a
+              {/* <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://x.com/SabiqHashil"
                 className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2"
               >
                 <FaTwitter className="text-[28px]" />
-              </a>
+              </a> */}
               <a
                 target="_blank"
                 rel="noopener noreferrer"

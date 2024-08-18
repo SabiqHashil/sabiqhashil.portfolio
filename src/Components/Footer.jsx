@@ -83,14 +83,14 @@ const Footer = () => {
             >
               <FaLinkedin size={30} />
             </a>
-            <a
+            {/* <a
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out"
               href="https://x.com/SabiqHashil"
             >
               <FaTwitter size={30} />
-            </a>
+            </a> */}
             <a
               target="_blank"
               rel="noopener noreferrer"
