@@ -1,6 +1,11 @@
 import { useEffect } from "react";
 import { AiFillGithub } from "react-icons/ai";
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  // FaTwitter
+} from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
