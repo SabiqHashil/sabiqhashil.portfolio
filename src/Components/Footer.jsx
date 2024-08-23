@@ -111,8 +111,8 @@ const Footer = () => {
         </div>
       </div>
       <p className="justify-center text-center text-[16px] mt-5">
-        Copyright © 2022 - 2024{" "}
-        <span className="text-fuchsia-500">Sabiq Hashil</span>. All Rights
+        Copyright &copy; 2022 - {new Date().getFullYear()}
+        <span className="text-fuchsia-500"> Sabiq Hashil</span>. All Rights
         Reserved.
       </p>
     </footer>
