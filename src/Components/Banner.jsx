@@ -79,14 +79,14 @@ const Banner = () => {
               >
                 <FaInstagram className="text-[28px]" />
               </a>
-              <a
+              {/* <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://www.facebook.com/Sabiqhashilkp786/"
                 className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2"
               >
                 <FaFacebook className="text-[28px]" />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
