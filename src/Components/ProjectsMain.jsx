@@ -15,7 +15,7 @@ const Projects = () => {
     >
       <h1
         data-aos="slide-left"
-        className="text-[52px] font-semibold mb-20 leading-normal uppercase text-fuchsia-500"
+        className="text-[50px] font-serif font-semibold mb-20 leading-normal uppercase text-fuchsia-500"
       >
         Projects
       </h1>
@@ -29,8 +29,8 @@ const Projects = () => {
             <Link to={`/projects/${project.id}`}>
               <img src={project.image} alt="project logo" />
               <div className="card__content">
-                <p className="card__title">{project.title}</p>
-                <p className="card__description">
+                <p className="card__title font-mono">{project.title}</p>
+                <p className="card__description text-xs font-sans">
                   {project.description.substring(0, 100)}...{" "}
                   <a className="text-blue-400">Read More</a>
                 </p>

@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { AiFillGithub } from "react-icons/ai";
 import {
-  FaFacebook,
+  // FaFacebook,
   FaInstagram,
   FaLinkedin,
   // FaTwitter
@@ -24,7 +24,7 @@ const Banner = () => {
       <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white">
         <h1
           data-aos="slide-right"
-          className="text-[52px] font-semibold mb-4 leading-normal uppercase"
+          className="text-[50px] font-serif font-semibold mb-4 leading-normal uppercase"
         >
           Software
           <span className="text-fuchsia-500"> Developer</span>
@@ -32,7 +32,7 @@ const Banner = () => {
 
         <p
           data-aos="slide-up"
-          className="text-[16px] text-justify font-normal leading-normal text-white"
+          className="text-[16px] font-sans text-justify font-normal leading-normal text-white"
         >
           As a Software Developer, I transform your innovative ideas into
           powerful, high-quality digital solutions. My expertise spans both

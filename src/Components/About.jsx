@@ -17,19 +17,19 @@ const About = () => {
         />
         <h1
           data-aos="slide-left"
-          className="text-[52px] font-semibold mb-2 leading-normal text-fuchsia-500 uppercase"
+          className="text-[50px] font-serif font-semibold mb-2 leading-normal text-fuchsia-500 uppercase"
         >
           About Me
         </h1>
         <h2
           data-aos="slide-down"
-          className="text-[28px] font-medium mt-1 leading-normal uppercase"
+          className="text-[28px] font-sans font-medium mt-1 leading-normal uppercase"
         >
           Sabiq Hashil
         </h2>
         <p
           data-aos="slide-up"
-          className="text-[16px] text-justify font-normal leading-normal text-white"
+          className="text-[16px] font-sans text-justify font-normal leading-normal text-white"
         >
           I am a self-taught software developer dedicated to
           transforming your digital concepts into reality. My skills span web
@@ -49,7 +49,7 @@ const About = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="neno-button shadow-xl lg:mt-5 mt-3 hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-4 px-4 uppercase relative overflow-hidden">
+            <button className="neno-button font-sans shadow-xl lg:mt-5 mt-3 hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-4 px-4 uppercase relative overflow-hidden">
               Resume
             </button>
           </a>

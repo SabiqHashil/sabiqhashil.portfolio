@@ -8,6 +8,7 @@ import Services from "./Components/Services";
 import Projects from "./Components/ProjectsMain";
 import { BallTriangle } from "react-loader-spinner";
 import ProjectDetails from "./Components/pages/ProjectDetails";
+// import Contact from "./Components/Contact";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -45,6 +46,7 @@ const App = () => {
                   <About />
                   <Services />
                   <Projects />
+                  {/* <Contact /> */}
                 </>
               }
             />

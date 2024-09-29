@@ -15,24 +15,24 @@ const ProjectDetails = () => {
         src={project.image}
         alt={project.title}
       />
-      <h3 className="text-[30px] font-semibold mb-5 text-center leading-normal uppercase text-fuchsia-500">
+      <h3 className="text-[30px] font-mono font-semibold mb-5 text-center leading-normal uppercase text-fuchsia-500">
         {project.title}
       </h3>
-      <p className="text-[16px]  font-normal leading-normal text-white">
+      <p className="text-[16px] font-sans font-normal leading-normal text-white">
         {project.description}
       </p>
       <div className="flex flex-row">
         <a
           target="_blank"
           href={project.link}
-          className="text-white m-10 self-center  cursor-pointer bg-blue-500 hover:bg-blue-700 font-bold py-2 px-4 rounded"
+          className="text-white m-10 self-center uppercase font-sans  cursor-pointer bg-blue-500 hover:bg-blue-700 font-bold py-2 px-4 rounded"
         >
           Visit Project
         </a>
 
         <button
           onClick={() => navigate("/")}
-          className="text-white m-10 self-center cursor-pointer bg-fuchsia-500 hover:bg-fuchsia-700 font-bold py-2 px-4 rounded"
+          className="text-white m-10 self-center uppercase font-sans cursor-pointer bg-fuchsia-500 hover:bg-fuchsia-700 font-bold py-2 px-4 rounded"
         >
           Back to Projects
         </button>

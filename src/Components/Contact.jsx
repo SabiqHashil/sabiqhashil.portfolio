@@ -13,8 +13,8 @@ const Contact = () => {
       className="p-4 lg:p-20 flex flex-col items-center justify-center "
     >
       <h1
-        data-aos="fade-left"
-        className="text-[52px] font-semibold mb-20 leading-normal uppercase text-fuchsia-500"
+        data-aos="slide-right"
+        className="text-[50px] font-serif font-semibold mb-10 leading-normal uppercase text-fuchsia-500"
       >
         Contact Me
       </h1>
@@ -22,7 +22,7 @@ const Contact = () => {
         <div className="lg:flex gap-9">
           <input
             className="w-full lg:my-3 my-4 rounded-lg bg-slate-800 p-4 border-2 border-fuchsia-800 b_glow text-xl text-slate-500"
-            placeholder="Enter Your Name"
+            placeholder="Enter Your Full Name"
             type="text"
           />
           <input
@@ -40,7 +40,7 @@ const Contact = () => {
           rows="10"
         ></textarea>
         <button
-          className="neno-button shadow-xl my-6 hover:shadow-fuchsia-800/50 text-white border-2 border-fuchsia-800 bg-fuchsia-800 hover:bg-slate-900 rounded-lg py-4 px-8 uppercase relative overflow-hidden b_glow text-xl text-bold"
+          className="neno-button font-sans shadow-xl my-6 hover:shadow-fuchsia-800/50 text-white border-2 border-fuchsia-800 bg-fuchsia-800 hover:bg-slate-900 rounded-lg py-4 px-8 uppercase relative overflow-hidden b_glow text-xl text-bold"
           type="submit"
         >
           Submit

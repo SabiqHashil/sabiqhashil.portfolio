@@ -24,7 +24,7 @@ const Nav = () => {
         </div>
 
         {/* Desktop Menu */}
-        <ul className="hidden lg:flex items-center gap-8 text-[18px]">
+        <ul className="hidden font-sans lg:flex items-center gap-8 text-[18px]">
           {menuItems.map((item) => (
             <Link
               key={item}
@@ -51,7 +51,7 @@ const Nav = () => {
         {/* Mobile Menu */}
         {click && (
           <div className="lg:hidden absolute top-0 left-0 w-full h-screen bg-slate-900 flex flex-col items-center justify-center z-10 transition ease-in-out duration-300">
-            <ul className="text-center text-xl space-y-10">
+            <ul className="text-center font-sans text-xl space-y-10">
               {menuItems.map((item) => (
                 <Link
                   key={item}

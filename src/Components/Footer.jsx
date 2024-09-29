@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import {
-  FaFacebook,
+  // FaFacebook,
   FaGithub,
   FaInstagram,
   FaLinkedin,
@@ -18,7 +18,7 @@ const Footer = () => {
           <span className="cursor-pointer text-3xl font-semibold text-fuchsia-800 py-2 uppercase">
             <img height={80} width={80} src="/images/logo.png" alt="SH logo" />
           </span>
-          <p className="text-[16px] my-5 font-normal leading-normal text-white">
+          <p className="text-[16px] font-sans my-5 font-normal leading-normal text-white">
             I embark on web and mobile app development, turning ideas into
             tangible digital solutions. Committed to excellence and client
             satisfaction, I create user-friendly experiences that stand out in
@@ -26,10 +26,10 @@ const Footer = () => {
           </p>
         </div>
         <div>
-          <h2 className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase">
+          <h2 className="text-[22px] font-serif font-semibold text-fuchsia-800 py-2 uppercase">
             Services
           </h2>
-          <ul className="text-[16px]">
+          <ul className="text-[16px] font-sans">
             <li className="my-2">CRM Development</li>
             <li className="my-2">Web Designing</li>
             <li className="my-2">Web Development</li>
@@ -37,10 +37,10 @@ const Footer = () => {
           </ul>
         </div>
         <div className="mb-4 md:mb-0">
-          <h2 className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase">
+          <h2 className="text-[22px] font-serif font-semibold text-fuchsia-800 py-2 uppercase">
             Contact
           </h2>
-          <div>
+          <div className="font-sans">
             <a
               href="mailto:sabiqhashilkp786@gmail.com"
               target="_blank"
@@ -63,7 +63,7 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <h2 className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase">
+          <h2 className="text-[22px] font-serif font-semibold text-fuchsia-800 py-2 uppercase">
             Follow Me
           </h2>
           <div className="flex gap-3 my-2">
@@ -110,7 +110,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="justify-center text-center text-[16px] mt-5">
+      <p className="justify-center font-thin text-center text-[16px] mt-5">
         Copyright &copy; 2022 - {new Date().getFullYear()}
         <span className="text-fuchsia-500"> Sabiq Hashil</span>. All Rights
         Reserved.
