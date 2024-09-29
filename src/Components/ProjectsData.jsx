@@ -13,7 +13,7 @@ export const ProjectsData = [
     description:
       "The website for JAES Company SDN BHD specializes in refrigeration, HVAC, and food equipment, serving industries like supermarkets, food distribution centers, and agricultural farms. It focuses on the installation, repair, maintenance, and troubleshooting of equipment such as freezers and cold rooms. The site promotes a cost-effective annual maintenance package, ensuring regular inspections and timely repairs. Additionally, it features a 'Request a Service' section offering free quotations, specialized refrigeration control boards, and long-term support. JAES Company’s expertise in servicing commercial cold rooms in Bandar Seri Begawan is highlighted, emphasizing their strong local presence.",
     image: JAESCompany,
-    link: "#",
+    link: "https://www.jaes-company.com/",
     aos: "slide-up",
   },
   {
