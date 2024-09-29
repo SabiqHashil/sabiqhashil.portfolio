@@ -15,7 +15,7 @@ const ProjectDetails = () => {
         src={project.image}
         alt={project.title}
       />
-      <h3 className="text-[30px] font-mono font-semibold mb-5 text-center leading-normal uppercase text-fuchsia-500">
+      <h3 className="text-[30px] font-serif font-semibold mb-5 text-center leading-normal uppercase text-fuchsia-500">
         {project.title}
       </h3>
       <p className="text-[16px] font-sans font-normal leading-normal text-white">
