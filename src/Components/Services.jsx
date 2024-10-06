@@ -6,7 +6,6 @@ const services = [
   { id: 2, title: "Web Development", aos: "flip-left" },
   { id: 3, title: "Mobile App Development", aos:  "flip-right" },
    { id: 4, title: "UI UX Designing", aos: "flip-down" },
-    { id: 5, title: "Poster Designing", aos: "flip-down" },
 ];
 
 const Services = () => {
