@@ -3,9 +3,9 @@ import { useEffect } from "react";
 
 const services = [
   { id: 1, title: "CRM Development", aos: "flip-up" },
-  { id: 2, title: "Website Designing", aos: "flip-left" },
-  { id: 3, title: "Web Development", aos: "flip-right" },
-  { id: 4, title: "Mobile App Development", aos: "flip-down" },
+  { id: 2, title: "Web Development", aos: "flip-left" },
+  { id: 3, title: "Mobile App Development", aos:  "flip-right" },
+   { id: 4, title: "UI UX Designing", aos: "flip-down" },
 ];
 
 const Services = () => {
