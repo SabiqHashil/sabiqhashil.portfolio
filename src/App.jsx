@@ -8,6 +8,7 @@ import Services from "./Components/Services";
 import Projects from "./Components/ProjectsMain";
 import { BallTriangle } from "react-loader-spinner";
 import ProjectDetails from "./Components/pages/ProjectDetails";
+import WhatsAppButton from "./Components/WhatsAppButton";
 // import Contact from "./Components/Contact";
 
 const App = () => {
@@ -37,6 +38,7 @@ const App = () => {
       ) : (
         <div className="bg-slate-900">
           <Nav />
+          <WhatsAppButton />
           <Banner />
           <Routes>
             <Route
