@@ -1,4 +1,4 @@
-import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaInstagram, FaGithub, FaLinkedin, FaFacebookF } from "react-icons/fa";
 import styled from "styled-components";
 
 const SocialButtons = () => {
@@ -33,6 +33,16 @@ const SocialButtons = () => {
           <li className="icon instagram">
             <span className="tooltip font-cf">Instagram</span>
             <FaInstagram className="text-2xl" />
+          </li>
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.facebook.com/Sabiqhashilkp786/"
+        >
+          <li className="icon facebook">
+            <span className="tooltip font-cf">Facebook</span>
+            <FaFacebookF className="text-2xl" />
           </li>
         </a>
       </ul>
@@ -129,6 +139,14 @@ const StyledWrapper = styled.div`
   .wrapper .linkedin:hover .tooltip::before {
     background: #0077b5;
     color: #fff;
+  }
+
+  /* Facebook Icon */
+  .wrapper .facebook:hover,
+  .wrapper .facebook:hover .tooltip,
+  .wrapper .facebook:hover .tooltip::before {
+    background: #1877f2; /* Facebook blue color */
+    color: #fff; /* White text color on hover */
   }
 `;
 
