@@ -1,11 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import {
-  // FaFacebook,
-  FaGithub,
-  FaInstagram,
-  FaLinkedin,
-  // FaTwitter,
-} from "react-icons/fa";
+import SocialButtons from "./Reusable/SocialButtons";
 
 const Footer = () => {
   return (
@@ -67,50 +61,10 @@ const Footer = () => {
           <h2 className="text-[22px] font-serif font-semibold text-fuchsia-800 py-2 uppercase">
             Follow Me
           </h2>
-          <div className="flex gap-3 my-2">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out"
-              href="https://github.com/SabiqHashil"
-            >
-              <FaGithub size={30} />
-            </a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out"
-              href="https://www.linkedin.com/in/sabiqhashilkp"
-            >
-              <FaLinkedin size={30} />
-            </a>
-            {/* <a
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out"
-              href="https://x.com/SabiqHashil"
-            >
-              <FaTwitter size={30} />
-            </a> */}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out"
-              href="https://www.instagram.com/sbq_developer"
-            >
-              <FaInstagram size={30} />
-            </a>
-            {/* <a
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out"
-              href="https://www.facebook.com/Sabiqhashilkp786/"
-            >
-              <FaFacebook size={30} />
-            </a> */}
-          </div>
+          <SocialButtons />
         </div>
       </div>
+
       <p className="justify-center font-thin text-center text-[16px] mt-5">
         Copyright &copy; 2022 - {new Date().getFullYear()}
         <span className="text-fuchsia-500"> Sabiq Hashil</span>. All Rights
