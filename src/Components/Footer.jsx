@@ -46,15 +46,7 @@ const Footer = () => {
                 sabiqhashilkp786@gmail.com
               </p>
             </a>
-            <a
-              href="tel:+917559873623"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <p className="text-[16px] my-4">
-                <span className="text-fuchsia-500">Phone:</span> +91 75598 73623
-              </p>
-            </a>
+        
           </div>
         </div>
         <div>
