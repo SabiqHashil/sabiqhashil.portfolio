@@ -123,11 +123,11 @@ body {
   line-height: 1.4;
 }
 
-@keyframes bounce {
+@keyframes pulseGlow {
   0%, 100% {
-    transform: translateY(0);
+    box-shadow: 0 0 15px rgba(37, 211, 102, 0.7), 0 0 30px rgba(37, 211, 102, 0.4), 0 0 45px rgba(37, 211, 102, 0.2);
   }
   50% {
-    transform: translateY(-15px); /* Adjust the bounce height */
+    box-shadow: 0 0 30px rgba(37, 211, 102, 1), 0 0 60px rgba(37, 211, 102, 0.7), 0 0 90px rgba(37, 211, 102, 0.4);
   }
 }
