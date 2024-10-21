@@ -48,14 +48,7 @@ const Banner = () => {
             className="flex items-center justify-center mt-3 lg:mt-5"
           >
             <div className="flex space-x-2">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/SabiqHashil"
-                className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2"
-              >
-                <AiFillGithub className="text-[28px]" />
-              </a>
+           
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -63,6 +56,14 @@ const Banner = () => {
                 className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2"
               >
                 <FaLinkedin className="text-[28px]" />
+              </a>
+   <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/SabiqHashil"
+                className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2"
+              >
+                <AiFillGithub className="text-[28px]" />
               </a>
               {/* <a
                 target="_blank"
