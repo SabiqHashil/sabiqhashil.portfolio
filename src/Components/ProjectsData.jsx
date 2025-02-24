@@ -6,8 +6,18 @@ import LeadUp from "../assets/projects/leadup_logo.png";
 import HomeBudget from "../assets/projects/home_budget_logo.jpg";
 import JAESCompany from "../assets/projects/jaes_company_logo.jpg";
 import KABSDigital from "../assets/projects/kabs_banner.jpg";
+import SkyWay from "../assets/projects/skyway_travels.png"
 
 export const ProjectsData = [
+ {
+  id: "skyway-travels",
+  title: "SkyWay Travels | Website & Web Application",
+  description: 
+  "The Skyway Travels website and web application were developed to enhance customer engagement and business efficiency. The website allows the client to update daily offers and top travel packages dynamically while also providing a customer inquiry system for seamless communication. Additionally, the integrated ScaleUp Web App supports the client's investor management needs, offering a streamlined solution for tracking investments and returns. This project empowers Skyway Travels with a responsive and user-friendly platform, improving both customer interactions and operational processes.",
+  image: SkyWay,
+  link: "https://skywaykerala.com/",
+  aos: "slide-up"
+ },
   {
     id: "kabs-digital",
     title: "KABS Digital | Website",

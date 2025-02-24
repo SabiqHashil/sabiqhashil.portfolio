@@ -13,10 +13,7 @@ const Footer = () => {
             <img height={80} width={80} src="/images/logo.png" alt="SH logo" />
           </span>
           <p className="text-[16px] font-sans my-5 font-normal leading-normal text-white">
-            I embark on web and mobile app development, turning ideas into
-            tangible digital solutions. Committed to excellence and client
-            satisfaction, I create user-friendly experiences that stand out in
-            today's digital landscape.
+          I bring ideas to life through innovative web and mobile app development, delivering seamless, user-centric solutions. Committed to excellence and client satisfaction, I craft digital experiences that are intuitive, impactful, and built for success in today’s dynamic landscape.
           </p>
         </div>
         <div>
