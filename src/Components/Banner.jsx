@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Image1 from "../assets/image1.jpg";
 
 const Banner = () => {
   useEffect(() => {
@@ -96,7 +97,7 @@ const Banner = () => {
 
       <img
         data-aos="zoom-out"
-        src="/images/image1.jpg"
+        src={Image1}
         width={290}
         height={290}
         className="rounded-full border-2 p-1 my-16 border-fuchsia-500 img_glow"

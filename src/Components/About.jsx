@@ -1,3 +1,4 @@
+import Image2 from "../assets/image2.jpg";
 /* eslint-disable react/no-unescaped-entities */
 
 const About = () => {
@@ -9,7 +10,7 @@ const About = () => {
       <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white">
         <img
           data-aos="zoom-in"
-          src="/images/image2.jpg"
+          src={Image2}
           width={200}
           height={200}
           className="rounded border-2 p-1 border-fuchsia-500 img_glow"
