@@ -9,7 +9,7 @@ const About = () => {
       <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white">
         <img
           data-aos="zoom-in"
-          src="/images/img.jpg"
+          src="/images/img2.jpg"
           width={200}
           height={200}
           className="rounded border-2 p-1 border-fuchsia-500 img_glow"
