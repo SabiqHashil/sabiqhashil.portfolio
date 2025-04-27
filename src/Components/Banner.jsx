@@ -96,7 +96,7 @@ const Banner = () => {
 
       <img
         data-aos="zoom-out"
-        src="/images/img1.jpg"
+        src="/images/image1.jpg"
         width={290}
         height={290}
         className="rounded-full border-2 p-1 my-16 border-fuchsia-500 img_glow"
