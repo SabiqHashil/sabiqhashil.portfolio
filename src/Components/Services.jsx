@@ -2,10 +2,10 @@ import Aos from "aos";
 import { useEffect } from "react";
 
 const services = [
-  { id: 1, title: "UI/UX Designing", aos: "flip-up" },
+  { id: 1, title: "CRM Development", aos: "flip-up" },
   { id: 2, title: "Web Development", aos: "flip-left" },
   { id: 3, title: "Mobile App Development", aos:  "flip-right" },
-   { id: 4, title: "CRM Development", aos: "flip-down" },
+   { id: 4, title: "UI/UX Designing", aos: "flip-down" },
 ];
 
 const Services = () => {
