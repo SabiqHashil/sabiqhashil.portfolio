@@ -1,22 +1,26 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { AiFillGithub } from "react-icons/ai";
-import {
-  FaFacebook,
-  // FaFacebook,
-  FaInstagram,
-  FaLinkedin,
-  // FaTwitter
-} from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Image1 from "../assets/image1.jpg";
 
 const Banner = () => {
+  const [currentRole, setCurrentRole] = useState(0);
+  const roles = ["Developer", "Engineer", "Designer", "Architect", "Innovator"];
+
   useEffect(() => {
     AOS.init({
       duration: 1000,
     });
   }, []);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentRole((prev) => (prev + 1) % roles.length);
+    }, 2000);
+    return () => clearInterval(interval);
+  }, [roles.length]);
 
   return (
     <div
@@ -29,7 +33,7 @@ const Banner = () => {
           className="text-[50px] font-serif font-semibold mb-4 leading-normal uppercase"
         >
           Software
-          <span className="text-fuchsia-500"> Developer</span>
+          <span className="text-fuchsia-500"> {roles[currentRole]}</span>
         </h1>
 
         <p
@@ -49,7 +53,6 @@ const Banner = () => {
             className="flex items-center justify-center mt-3 lg:mt-5"
           >
             <div className="flex space-x-2">
-           
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -58,7 +61,7 @@ const Banner = () => {
               >
                 <FaLinkedin className="text-[28px]" />
               </a>
-   <a
+              <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://github.com/SabiqHashil"
