@@ -2,6 +2,17 @@
 import SocialButtons from "./Reusable/SocialButtons";
 
 const Footer = () => {
+  const services = [
+    { id: 1, title: "Custom Web Development (MERN Stack)", aos: "flip-up" },
+    {
+      id: 2,
+      title: "Mobile App Development (Flutter for iOS & Android)",
+      aos: "flip-up",
+    },
+    { id: 3, title: "UI/UX Design & Prototyping", aos: "flip-up" },
+    { id: 4, title: "Software Architecture & Engineering", aos: "flip-up" },
+  ];
+
   return (
     <footer
       id="Contact"
@@ -13,7 +24,7 @@ const Footer = () => {
             <img height={80} width={80} src="/images/logo.png" alt="SH logo" />
           </span>
           <p className="text-[16px] font-sans my-5 font-normal leading-normal text-white">
-          I bring ideas to life through innovative web and mobile app development, delivering seamless, user-centric solutions. Committed to excellence and client satisfaction, I craft digital experiences that are intuitive, impactful, and built for success in today’s dynamic landscape.
+            Transforming concepts into intelligent, automated digital solutions.
           </p>
         </div>
         <div>
@@ -21,13 +32,18 @@ const Footer = () => {
             Services
           </h2>
           <ul className="text-[16px] font-sans">
-            <li className="my-2">Poster Designing</li>
-            <li className="my-2">UI/UX Designing</li>
-            <li className="my-2">Web Development</li>
-            <li className="my-2">Mobile App Development</li>
-            <li className="my-2">CRM Development</li>
+            {services.map((service) => (
+              <li
+                key={service.id}
+                data-aos={service.aos}
+                className="my-2 hover:text-blue-500 transition-colors duration-300"
+              >
+                {service.title}
+              </li>
+            ))}
           </ul>
         </div>
+
         <div className="mb-4 md:mb-0">
           <h2 className="text-[22px] font-serif font-semibold text-fuchsia-800 py-2 uppercase">
             Contact
@@ -38,12 +54,11 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p className="text-[16px] my-2">
+              <p className="text-[16px] my-2 hover:text-blue-500">
                 <span className="text-fuchsia-500">Email: </span>
                 sabiqhashilkp786@gmail.com
               </p>
             </a>
-        
           </div>
         </div>
         <div>
@@ -54,10 +69,10 @@ const Footer = () => {
         </div>
       </div>
 
-      <p className="justify-center font-thin text-center text-[16px] mt-5">
-        Copyright &copy; 2022 - {new Date().getFullYear()}
-        <span className="text-fuchsia-500"> Sabiq Hashil</span>. All Rights
-        Reserved.
+      <p className="text-center font-thin text-[16px] mt-5 text-white">
+        &copy; 2022 - {new Date().getFullYear()}{" "}
+        <span className="text-fuchsia-500 font-medium">Sabiq Hashil</span>. All
+        rights reserved.
       </p>
     </footer>
   );

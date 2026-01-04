@@ -6,10 +6,9 @@ import Footer from "./Components/Footer";
 import Nav from "./Components/Nav";
 import Services from "./Components/Services";
 import Projects from "./Components/ProjectsMain";
-import { BallTriangle } from "react-loader-spinner";
+import { Oval } from "react-loader-spinner";
 import ProjectDetails from "./Components/pages/ProjectDetails";
 import WhatsAppButton from "./Components/Reusable/WhatsAppButton";
-// import Contact from "./Components/Contact";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -24,14 +23,13 @@ const App = () => {
     <Router>
       {loading ? (
         <div className="bg-slate-900 h-[100vh] flex justify-center items-center">
-          <BallTriangle
+          <Oval
             height={100}
             width={100}
-            radius={5}
             color="#d946ef"
-            ariaLabel="ball-triangle-loading"
-            wrapperStyle={{}}
-            wrapperClass=""
+            secondaryColor="#a78bfa"
+            strokeWidth={5}
+            ariaLabel="oval-loading-1"
             visible={true}
           />
         </div>

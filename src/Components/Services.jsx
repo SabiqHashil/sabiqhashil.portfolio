@@ -2,10 +2,10 @@ import Aos from "aos";
 import { useEffect } from "react";
 
 const services = [
-  { id: 1, title: "CRM Development", aos: "flip-up" },
-  { id: 2, title: "Web Development", aos: "flip-left" },
-  { id: 3, title: "Mobile App Development", aos:  "flip-right" },
-   { id: 4, title: "UI/UX Designing", aos: "flip-down" },
+  { id: 1, title: "Custom Web Development", aos: "flip-up" }, // MERN stack, scalable web apps
+  { id: 2, title: "Mobile App Development", aos: "flip-left" }, // Flutter, iOS & Android apps
+  { id: 3, title: "UI/UX Design & Prototyping", aos: "flip-right" }, // Intuitive and user-centric designs
+  { id: 4, title: "Software Architecture & Engineering", aos: "flip-down" }, // Scalable, secure, high-performance solutions
 ];
 
 const Services = () => {

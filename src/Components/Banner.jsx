@@ -4,23 +4,14 @@ import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Image1 from "../assets/image1.jpg";
+import DynamicRole from "./Reusable/DynamicRole";
 
 const Banner = () => {
-  const [currentRole, setCurrentRole] = useState(0);
-  const roles = ["Developer", "Engineer", "Designer", "Architect", "Innovator"];
-
   useEffect(() => {
     AOS.init({
       duration: 1000,
     });
   }, []);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentRole((prev) => (prev + 1) % roles.length);
-    }, 2000);
-    return () => clearInterval(interval);
-  }, [roles.length]);
 
   return (
     <div
@@ -32,20 +23,23 @@ const Banner = () => {
           data-aos="slide-right"
           className="text-[50px] font-serif font-semibold mb-4 leading-normal uppercase"
         >
-          Software
-          <span className="text-fuchsia-500"> {roles[currentRole]}</span>
+          Software{" "}
+          <DynamicRole
+            inline
+            className="text-fuchsia-500 ont-serif font-semibold"
+          />
         </h1>
 
         <p
           data-aos="slide-up"
           className="text-[16px] font-sans text-justify font-normal leading-normal text-white"
         >
-          As a Software Developer, I transform your innovative ideas into
-          powerful, high-quality digital solutions. My expertise spans both
-          mobile and web development, utilizing Flutter for mobile applications
-          and the MERN stack for web solutions. I am dedicated to delivering
-          intuitive and engaging user experiences, ensuring that your vision is
-          realized with precision and excellence.
+          As a Software <DynamicRole inline />, I create innovative solutions that drive
+          digital success. I focus on{" "}
+          <DynamicRole inline roleAllow={false} descriptionAllow={true} /> and
+          craft seamless web and mobile experiences using the MERN stack and
+          Flutter. My goal is to deliver high-quality, scalable, and intuitive
+          products that transform ideas into impactful realities.
         </p>
         <div className="flex items-center justify-center">
           <div

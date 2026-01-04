@@ -1,4 +1,5 @@
 import Image2 from "../assets/image2.jpg";
+import DynamicRole from "./Reusable/DynamicRole";
 /* eslint-disable react/no-unescaped-entities */
 
 const About = () => {
@@ -28,22 +29,24 @@ const About = () => {
         >
           Sabiq Hashil
         </h2>
+
+        {/* Paragraph with dynamic role injected */}
         <p
           data-aos="slide-up"
           className="text-[16px] font-sans text-justify font-normal leading-normal text-white"
         >
-          I am a self-taught software developer dedicated to
-          transforming your digital concepts into reality. My skills span web
-          and mobile app development, enabling me to provide efficient,
-          cost-effective, and high-quality solutions. With a focus on
-          performance, intuitive design, and accessibility, I ensure that every
-          project delivers an exceptional user experience. Clients value my
-          ability to seamlessly integrate front-end and back-end technologies.
-          Whether it's developing compelling web applications or engaging mobile
-          apps, I am committed to delivering results that exceed expectations
-          and bring your digital vision to life.
+          I am a passionate software professional committed to transforming
+          ideas into cutting-edge digital experiences. Skilled in web and mobile
+          development, I build scalable, high-performance applications that are
+          both reliable and user-friendly. Leveraging modern technologies like
+          the MERN stack and Flutter, I craft solutions that combine creativity,
+          technical excellence, and intuitive design. I thrive on turning
+          complex challenges into elegant, efficient solutions, ensuring every
+          project delivers real value, seamless interactions, and a remarkable
+          user experience. My work reflects a dedication to innovation,
+          precision, and delivering results that exceed expectations.
         </p>
-        <div  data-aos="fade" className="flex items-center justify-center">
+        <div data-aos="fade" className="flex items-center justify-center">
           <a
             href="/path/to/SABIQ HASHIL - RESUME.pdf"
             download="SABIQ HASHIL - RESUME.pdf"
